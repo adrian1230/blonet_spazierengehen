@@ -22,11 +22,11 @@ namespace bloopers.Controllers
         {
             List<Blogs> listBlogs = new List<Blogs>()
             {
-               new Blogs() { BlogId = 1, Author = "James",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
-               new Blogs() { BlogId = 3, Author = "David",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
-               new Blogs() { BlogId = 2, Author = "Smith",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
-               new Blogs() { BlogId = 4, Author = "Sara", Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
-               new Blogs() { BlogId = 5, Author = "Pam",  Title="dfghj",Date="01-03-2019",Text="cuiahdias"}
+               new Blogs() { BlogId = 1, Author = "James",Title="abcde",Date="01-03-2019",Text="qwertyu"},
+               new Blogs() { BlogId = 3, Author = "David",Title="fghij",Date="01-04-2019",Text="chgf"},
+               new Blogs() { BlogId = 2, Author = "Smith",Title="klmno",Date="01-05-2019",Text="cuiafvjkoas"},
+               new Blogs() { BlogId = 4, Author = "Sara", Title="pqrst",Date="01-06-2019",Text="ytrdfcvbs"},
+               new Blogs() { BlogId = 5, Author = "Pam",  Title="uvwxy",Date="01-07-2019",Text="xcfgtoiujnbfas"}
             };
             return View(listBlogs);
         }
