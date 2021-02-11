@@ -37,7 +37,14 @@ namespace bloopers.Controllers
 
         public IActionResult Text(int Id)
         {
-            return View();
+            var details = new Blogs() {
+                BlogId = Id,
+                Author="James",
+                Title="abcde",
+                Date="01-03-2019",
+                Text="qwertyu"   
+            };
+            return View(details);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
