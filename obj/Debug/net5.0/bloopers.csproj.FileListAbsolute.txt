@@ -37,3 +37,4 @@
 /Users/qwe/Desktop/bloopers/obj/Debug/net5.0/bloopers.pdb
 /Users/qwe/Desktop/bloopers/obj/Debug/net5.0/bloopers.genruntimeconfig.cache
 /Users/qwe/Desktop/bloopers/obj/Debug/net5.0/bloopers.csproj.CopyComplete
+/Users/qwe/Desktop/bloopers/obj/Debug/net5.0/Razor/Views/Content/Blog.cshtml.g.cs

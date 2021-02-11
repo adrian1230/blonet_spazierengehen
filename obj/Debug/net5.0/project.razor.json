@@ -15628,6 +15628,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/qwe/Desktop/bloopers/Views/Content/Blog.cshtml",
+      "TargetPath": "Views\\Content\\Blog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/qwe/Desktop/bloopers/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
