@@ -18,7 +18,24 @@ namespace bloopers.Controllers
             _logger = logger;
         }
 
+        public ViewResult Index()
+        {
+            List<Blogs> listBlogs = new List<Blogs>()
+            {
+               new Blogs() { BlogId = 1, Author = "James",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
+               new Blogs() { BlogId = 3, Author = "David",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
+               new Blogs() { BlogId = 2, Author = "Smith",Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
+               new Blogs() { BlogId = 4, Author = "Sara", Title="dfghj",Date="01-03-2019",Text="cuiahdias"},
+               new Blogs() { BlogId = 5, Author = "Pam",  Title="dfghj",Date="01-03-2019",Text="cuiahdias"}
+            };
+            return View(listBlogs);
+        }
         public IActionResult Blog()
+        {
+            return View();
+        }
+
+        public IActionResult Text(int Id)
         {
             return View();
         }

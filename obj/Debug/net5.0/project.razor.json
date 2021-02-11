@@ -15641,6 +15641,11 @@
       "FilePath": "/Users/qwe/Desktop/bloopers/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/qwe/Desktop/bloopers/Views/Content/Text.cshtml",
+      "TargetPath": "Views\\Content\\Text.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
