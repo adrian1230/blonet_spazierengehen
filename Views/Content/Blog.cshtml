@@ -2,13 +2,21 @@
     ViewData["Title"] = "Blog";
 }
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $('#ho').hover(
+        function(){$(this).addClass('active bg-primary')},
+        function(){$(this).removeClass('active bg-primary')}
+    )
+</script>
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
 
 <div>
     <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+        <a href="#" id="ho" class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">List group item heading</h5>
             <small>3 days ago</small>
@@ -16,7 +24,7 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small>Donec id elit non mi porta.</small>
         </a>
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <a href="#" id="ho" class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">List group item heading</h5>
             <small class="text-muted">3 days ago</small>
@@ -24,7 +32,7 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
         </a>
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        <a href="#" id="ho" class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
             <h5 class="mb-1">List group item heading</h5>
             <small class="text-muted">3 days ago</small>
